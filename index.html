@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description"
+        content="Esta página exibe uma barra de pesquisa minimalista e moderna. A interface é limpa e tem um fundo azul-claro sólido.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Barra,Pesquisa,minimalista">
+    <meta name="author" content="Giovanni dos Santos Carvalho">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icone-barra-pesquisa.png" type="image/x-icon">
+    <title>Barra de Pesquisa Personalizada</title>
+</head>
+<body>
+    <div class="input-box">
+        <img src="img/web/icons8-pesquisar-ios-17-outlined-32.png" alt="Imagem de uma lupa na cor cinza">
+        <input type="text" placeholder="Pesquise aqui....">
+        <button class="button">Pesquisar</button>
+    </div><!--input-box-->
+
+    <script>
+        const button = document.querySelector("button")
+        button.addEventListener("mousedown", () => button.classList.add("clicked"))
+        button.addEventListener("mouseup", () => button.classList.add("clicked"))
+    </script>
+</body>
+</html>
